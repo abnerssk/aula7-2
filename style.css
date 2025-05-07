@@ -1,0 +1,47 @@
+body{
+    background-color: #02003a;
+}
+
+img{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 600px;
+    padding: 40px;
+}
+
+h2{
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+
+form fieldset{
+    border: solid 3px steelblue;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    color: white;
+    border-radius: 2%;
+
+}
+form fieldset legend{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+form input[type="submit"]{
+    width: 30vw;
+    margin: auto;
+    height: 7vh;
+    border: solid 3px darkgreen;
+    background: linear-gradient(135deg, #005226 0%, #2ee683 100%);
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    border-radius: 4%;
+}
